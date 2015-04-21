@@ -27,7 +27,7 @@ for line in fhandle:
 for word in address:                  
     emails[word] = emails.get(word,0) + 1   #Adds email addresses from address list into emails dict
 
-    print word, emails[word]                #Prints out appeareancesa and growing count
+    print word, emails[word]                #Prints out appeareances and growing count
     
 bigcount = None
 bigemail = None
